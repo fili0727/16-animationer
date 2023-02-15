@@ -188,6 +188,22 @@
   }
 }
 
+.blur_to_gray {
+translate: -140%;
+  animation-name: blur_to_gray;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes blur_to_gray {
+  100% {
+    transform: translate(280%, 0%) rotate(120deg);
+    filter: grayscale(100%) blur(2px);
+  }
+  
+}
 
 
 
