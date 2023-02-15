@@ -17,3 +17,22 @@
     }
     
 }
+
+.bouncing{
+    animation-name: bouncing;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes bouncing{
+    0%{
+        transform: translate(0,-140%);
+    }
+    100%{
+        transform: translate(0,140%);
+    }
+   
+}
+
