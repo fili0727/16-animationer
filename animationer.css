@@ -157,3 +157,22 @@
     transform: rotate(360deg);
   }
 }
+
+.rotation2 {
+  animation-name: rotation2;
+  transform-origin: -60% -60%;
+  translate: 120% 120%;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+
+@keyframes rotation2 {
+  0% {
+    transform:rotate(360deg) ;
+  }
+}
+
+
+
