@@ -222,6 +222,20 @@
   }
 }
 
+.overshoot {
+    translate: -140% 0%;
+  animation-name: overshoot;
+  animation-duration: 1.5s;
+  animation-timing-function: cubic-bezier(.57,.66,.58,1.62);
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
 
+@keyframes overshoot {
+  100% {
+    transform: translate(280%, 0%) rotate(90deg);
+  
+  }
+}
 
 
