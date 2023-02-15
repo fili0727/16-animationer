@@ -37,7 +37,7 @@
 }
 
 .drop{
-    animation-name: bouncing;
+    animation-name: drop;
     animation-duration: 1s;
     animation-timing-function: ease-in;
     animation-iteration-count: 1;
@@ -46,10 +46,10 @@
 
 @keyframes drop{
     0%{
-        transform: translate(0,100%);
+        transform: translate(0,-140%);
     }
     100%{
-        transform: translate(0,-280%);
+        transform: translate(0,140%);
     }
    
 }
