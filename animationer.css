@@ -54,4 +54,34 @@
    
 }
 
+.pattern{
+    animation-name: pattern;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite
+}
+
+@keyframes pattern{
+    0%{
+        transform: translate(0,140%);
+    }
+    25%{
+        transform: translate(-140%,0%);
+    }
+    50%{
+        transform: translate(0%,-140%);
+    }
+    75%{
+        transform: translate(140%,0);
+    }
+    100%{
+        transform: translate(0,140%);
+    }
+
+  
+   
+}
+
+
+
 
