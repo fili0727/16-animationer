@@ -36,3 +36,22 @@
    
 }
 
+.drop{
+    animation-name: bouncing;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes drop{
+    0%{
+        transform: translate(0,100%);
+    }
+    100%{
+        transform: translate(0,-280%);
+    }
+   
+}
+
+
